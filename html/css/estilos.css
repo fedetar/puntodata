@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{ font-family: 'Montserrat', sans-serif; }
+
+div.jumbotron {
+  background-image: url(http://localhost/img/sysadmin2.png);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+}
+/*
+ARREGLAR FONDO
+body {
+	background-image: url("http://localhost/img/sysadmin2.png");
+	background-color: #cccccc;
+	background-size: cover;
+	background-repeat: no-repeat;
+}*/
+
+/*Estilos para poner menu transparente*/
+.navbar.sticky {
+    background: rgba(0, 0, 0, 0.8);
+}
+.navbar.navbar-inverse {
+    background: rgba(0, 0, 0, 0.4);
+   
+}
+.navbar {
+    padding: 10px 0px 10px 0px;
+}
+.navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+        border-bottom-color: rgb(8, 8, 8);
+}
+.navbar-fixed-top {
+    top: 0;
+    z-index: 1030;
