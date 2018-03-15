@@ -1,42 +1,26 @@
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 body{ font-family: 'Montserrat', sans-serif; }
 
 
-.navbar.sticky {
-    background: rgba(0, 0, 0, 0.8);
-}
-.navbar.navbar-inverse {
-    background: rgba(0, 0, 0, 0.4);
-   
-}
-.navbar {
-    padding: 10px 0px 10px 0px;
-}
-.navbar-inverse {
-    background-color: #222;
-    border-color: #080808;
-        border-bottom-color: rgb(8, 8, 8);
-}
-.navbar-fixed-top {
-    top: 0;
-z-index: 1030;
+.dropdown-menu {
+	background-color: #343a40 !important;
+	border: none;
 }
 
-.section_header {
-  width: 100%;
-  margin-bottom: 60px; }
-  .section_header h3 {
-    color: #646464;
-    font-weight: 300;
-    font-style: italic;
-    font-size: 27px;
-    border-bottom: 1px solid #b3b3b3;
-    padding-bottom: 0px;
-    display: inline-block;
-    margin: 0; }
+.carousel-caption{
 
-header.masthead {
+	top: 50%;
+	left: 15%;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+}
+
+/*MasterHead*/
+
+
+.masthead {
   position: relative;
   background-color: #343a40;
   background: url(/img/sysadmin2.png) no-repeat center center fixed;
@@ -48,7 +32,7 @@ header.masthead {
   padding-bottom: 8rem;
 }
 
-header.masthead .overlay {
+.masthead .overlay {
   position: absolute;
   background-color: #212529;
   height: 100%;
@@ -58,20 +42,21 @@ header.masthead .overlay {
   opacity: 0.3;
 }
 
-header.masthead h1 {
+.masthead h1 {
   font-size: 2rem;
 }
 
 @media (min-width: 768px) {
-  header.masthead {
+  .masthead {
     padding-top: 12rem;
     padding-bottom: 12rem;
   }
-  header.masthead h1 {
+  .masthead h1 {
     font-size: 3rem;
   }
 }
 
+/*Contenedor principal*/
 .contenedor-principal{
   background-color: #ffffff;
   color: white;
